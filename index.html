@@ -11,72 +11,285 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="l-side">
-        <div class="side-nav">
+    <!-- header-section -->
+    <div class="container">
+        <div class="header">
             <div class="logo">
-                <a href=""><img src="image/png-clipart-spotify-logo-logo-spotify-issuu-soundcloud-spotify-logo-white-text-thumbnail-removebg-preview.png" alt=""></a>
+                <a href=""><img src="image/Spotify_Primary_Logo_RGB_White.png" alt=""></a>
             </div>
-            <ul>
-
-                <li><a href="">
-                    <span><i class="fa-solid fa-house"></i></span>
-                    <span>Home</span>
-                </a></li>
-
-                <li><a href="">
-                    <span><i class="fa-solid fa-magnifying-glass"></i></i></span>
-                    <span>Search</span>
-                </a></li>
-
-            </ul>
+            <div class="hm1">
+                <i id="hm1" class="fa-solid fa-house"></i>
+            </div>
+            <div class="navbar-center">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="What do you want to play?" class="search-bar">
+                </div>
+            </div>      
+            <div class="login-btn">
+                <button class="sign-up">Sign up</button>
+                <button class="login">Login</button>
+            </div>
+    
         </div>
-
-        <div class="side-nav 2">
-            
-            <ul>
-
-                <li><a href="">
-                    <span><i class="fa-solid fa-book"></i></span>
-                    <span class="library">Your Library</span>
-                </a></li>
-
-                <li>
-                    <div class="sidebar-scroll">
-                        <div class="create-playlist">
-                            <h4>Create your first playlist</h4>
-                            <p>It's easy, we'll help you</p>
-                            <button>Create playlist</button>
+        <!-- left-section -->
+        <div class="l-side">
+            <div class="side-nav 2">
+                
+                <ul>
+    
+                    <li><a href="">
+                        <span><i class="fa-solid fa-book"></i></span>
+                        <span class="library">Your Library</span>
+                    </a></li>
+        
+                    <li class="scroll-li">
+                                <div class="sidebar-scroll">
+                                    <div class="create-playlist">
+                                        <h4>Create your first playlist</h4>
+                                        <p>It's easy, we'll help you</p>
+                                        <button>Create playlist</button>
+                            </div>
+                                <div class="create-playlist">
+                                    <h4>Let's find some podcasts to follow</h4>
+                                    <p>It's easy, we'll help you</p>
+                                    <button>Browse podcasts</button>
+                            </div>
+                    </li>
+                    
+                </ul>
+        
+                </ul>
+                <div class="privacy">
+                    <ul>
+                        <li>
+                            <a href="">Legal</a>
+                            <a href="">Safety & Privacy</a>
+                            <a href="">Policy</a>
+                        </li>
+                        <li>
+                            <a href="">cookies</a>
+                            <a href="">About ads</a>
+                            <a href="">Accessability</a>
+                        </li>
+                        <li>
+                            <a href="">cookies</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="eng-btn">
+                    <button>English</button>
+                </div>
+            </div>
+        </div>
+        <!-- home -->
+            <div class="home">
+                <!-- playlist -->
+                <div class="spotify-playlist">
+                    <h2>Popular artists</h2>
+                    <div class="card">
+                        <div class="item">
+                            <img class="Artist" src="image/profile_vrt_raw_bytes_1587515396_10843.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>The Weeknd</h4>
+                            <P>Artist</P>
                         </div>
-                        <div class="create-playlist">
-                            <h4>Create your first playlist</h4>
-                            <p>It's easy, we'll help you</p>
-                            <button>Create playlist</button>
+    
+                        <div class="item">
+                            <img class="Artist" src="image/profile_vrt_raw_bytes_1587514348_2154.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Dua Lipa</h4>
+                            <P>Artist</P>
+                        </div>
+    
+                        <div class="item">
+                            <img class="Artist" src="image/artworks-idkOvElgUVsgeht2-CcVMiA-t500x500.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Juice WRLD</h4>
+                            <P>Artist</P>
+                        </div>
+    
+                        <div class="item">
+                            <img class="Artist" src="image/woth40p22ew91.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>SZA</h4>
+                            <P>Artist</P>
+                        </div>
+    
+                        <div class="item">
+                            <img class="Artist" src="image/ab6761610000e5eb4f8f76117470957c0e81e5b2.jpeg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>21 Savage</h4>
+                            <P>Artist</P>
                         </div>
                     </div>
-                </li>
-                
-            </ul>
-            <div class="privacy">
-                <ul>
-                    <li>
-                        <a href="">Legal</a>
-                        <a href="">Safety & Privacy</a>
-                        <a href="">Policy</a>
-                    </li>
-                    <li>
-                        <a href="">cookies</a>
-                        <a href="">About ads</a>
-                        <a href="">Accessability</a>
-                    </li>
-                    <li>
-                        <a href="">cookies</a>
-                    </li>
-                </ul>
+
+
+                <div class="spotify-playlist">
+                    <h2>Popular Album</h2>
+                    <div class="card">
+                        <div class="item">
+                            <img src="image/All Out 2010s.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Tik Tok</h4>
+                            <P>kesha</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/download.jpeg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Doja</h4>
+                            <P>Cental Cee</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/4daad0cf1219609736bed25941dde996.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Your Love-Anthony Keyrouz Remix</h4>
+                            <P>Kate Linn,Anthony Keyrouz</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/voicenotes - charlie puth.jpeg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Attention</h4>
+                            <P>charlie Puth</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/3.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <h4>Mortals (Slowed)</h4>
+                            <P>Warriyo, Laura Brehm</P>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="spotify-playlist">
+                    <h2>Featured chart</h2>
+                    <div class="card">
+                        <div class="item">
+                            <img src="image/ab67706c0000da84e848958dbe43ee094af01f5f.jpeg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <P>Your weekly update of the most played.....</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/region_in_default.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <P>Your weekly update of the most played.....</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/images.jpeg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <P>Your weekly update of the most played.....</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/download (1).jpeg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <P>Your weekly update of the most played.....</P>
+                        </div>
+    
+                        <div class="item">
+                            <img src="image/region_jp_default.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <P>Your weekly update of the most played.....</P>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <!-- footer -->
+                 <div class="footer-section">
+                    <div class="footer">
+                        <div class="footer-links">
+                            <div class="footer-column">
+                                <div>Company</div>
+                                <ul class="col-links">
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Jobs</a></li>
+                                    <li><a href="">For the Record</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <div>Communities</div>
+                                <ul class="col-links">
+                                    <li><a href="">For Artists</a></li>
+                                    <li><a href="">Developers</a></li>
+                                    <li><a href="">Advertising</a></li>
+                                    <li><a href="">Investors</a></li>
+                                    <li><a href="">Vendors</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <div>Useful links</div>
+                                <ul class="col-links">
+                                    <li><a href="">Support</a></li>
+                                    <li><a href="">Free Mobile App</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <div>Spotify Plans</div>
+                                <ul class="col-links">
+                                    <li><a href="">Premium Individual</a></li>
+                                    <li><a href="">Premium Duo</a></li>
+                                    <li><a href="">Premium Family</a></li>
+                                    <li><a href="">Premium Student</a></li>
+                                    <li><a href="">Spotify Free</a></li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="social-media">
+                            <div>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+    
+                 <hr>
+    
+                 <div>
+                    <p class="copyright">&copy; 2024 Spotify AB</p>
+                 </div>
+    
             </div>
-            <div class="eng-btn">
-                <button>English</button>
-            </div>
-        </div>
     </div>
+        
 </body>
 </html>
